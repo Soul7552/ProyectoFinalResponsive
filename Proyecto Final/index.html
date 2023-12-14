@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+          <div id="logo">
+            <h4>Valentino Gentile</h4>
+          </div>
+          <ul id="links">
+            <li><a href="#">Mis Modelos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+          <div id="mobile-burger-menu">
+            <input type="checkbox" id="check" />
+            <label for="check" id="burger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+        </nav class="nav">
+        <div id="menu-links">
+          <ul>
+            <li><a href="#">Mis Modelos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+    </header>
+    <nav id="presentacion">
+        <img id="photo" src="yo.jpg">
+        <div class="info">
+            <p>¡Hola!, Mi nombre es</p>
+            <h1 id="name">Valentino Gentile</h1>
+            <p>Modelador 3D</p>
+            <a href="" id="botonModelos">Ver modelos</a>
+        </div>  
+    </nav>
+    <nav id="modelos">
+        <img class="grid-item" id="img1" src="./1.png" />
+        <img class="grid-item" id="img2" src="./2.png" />
+        <img class="grid-item" id="img3" src="./3.png" />
+        <img class="grid-item" id="img4" src="./4.png" />
+        <img class="grid-item" id="img5" src="./5.png" />
+        <img class="grid-item" id="img6" src="./6.png" />
+    </nav>
+    <nav id="contacto">
+        <form class="login-form">
+            <h2 class="contactoFont">Contáctame</h1>
+            <div class="form-group">
+                <label class="contactoFont" for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label class="contactoFont" for="password">Numero de Telefono:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button class="contactoFont" type="submit">Enviar</button>
+            </div>
+        </form>
+    </nav>
+    <footer id="footer">
+        <h3>Copyright© Valentino Gentile Industries</h1>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
